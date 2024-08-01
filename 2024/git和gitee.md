@@ -6,11 +6,11 @@
 
 ​	提交文件示意图
 
-![img](https://i-blog.csdnimg.cn/blog_migrate/03d050acd661fc087249e7671b9ad528.png)
+![img](https://raw.githubusercontent.com/kurong99/plog/master/pic/03d050acd661fc087249e7671b9ad528.png)
 
 #### 1. 使用git init命令创建Git仓库
 
-![init](https://raw.githubusercontent.com/Kurong21/plog/master/pic/init.png?token=AYJ7A5Z25UQALTCPOM3EXHLGU552I)
+![init](https://raw.githubusercontent.com/kurong99/plog/master/pic/init.png?token=AYJ7A5Z25UQALTCPOM3EXHLGU552I)
 
  
 
@@ -20,7 +20,7 @@
 
 ​	我先在仓库内创建了一个Example.txt文件。然后再到git bash 命令行窗口输入指令。
 
-![img](https://i-blog.csdnimg.cn/blog_migrate/aa705e32214c66ba51caea01813cf858.png)
+![img](https://raw.githubusercontent.com/kurong99/plog/master/pic/aa705e32214c66ba51caea01813cf858.png)
 
  
 
@@ -30,7 +30,7 @@
 
 #### 3. 再使用git commit 提交修改的内容 
 
-![img](https://i-blog.csdnimg.cn/blog_migrate/1a3189b6662d28b7e7f6318e5ad88501.png)
+![img](https://raw.githubusercontent.com/kurong99/plog/master/pic/1a3189b6662d28b7e7f6318e5ad88501.png)
 
  ok，出现下面的这几行就表示成功了，git commit -m "XXX" 这个 -m后面的内容相当于注释，对你每一次的提交进行一个简单地描述，以便于以后能够更加清楚的找到所想找到的内容。
 
@@ -38,11 +38,11 @@
 
 那我们来验证一下。我现在对文档进行一下修改。
 
-![img](https://i-blog.csdnimg.cn/blog_migrate/7cae6d3eca76038648daaf374f9467de.png)
+![img](https://raw.githubusercontent.com/kurong99/plog/master/pic/7cae6d3eca76038648daaf374f9467de.png)
 
 回到git bash 输入命令 git status
 
- ![img](https://i-blog.csdnimg.cn/blog_migrate/609b8e78a10ff78f5e69ec93a5635007.png)
+ ![img](https://raw.githubusercontent.com/kurong99/plog/master/pic/609b8e78a10ff78f5e69ec93a5635007.png)
 
 上面清楚的显示 modified : Example.txt。
 
@@ -58,15 +58,15 @@ Gitee - 基于 Git 的代码托管和研发协作平台
 
 这是Gitee的官网，进去之后先注册一个账号。然后点击头像旁边的 + 进行操作
 
-![img](https://i-blog.csdnimg.cn/blog_migrate/3fe70af0f4fa3520fa32b30d439a1c4c.png)
+![img](https://raw.githubusercontent.com/kurong99/plog/master/pic/3fe70af0f4fa3520fa32b30d439a1c4c.png)
 
-![img](https://i-blog.csdnimg.cn/blog_migrate/5b28df59afe63044363410b1c8f30125.png)
+![img](https://raw.githubusercontent.com/kurong99/plog/master/pic/5b28df59afe63044363410b1c8f30125.png)
 
 
 
  我这里创建了两个仓库，里面放的是一些平时的作业代码。
 
-![img](https://i-blog.csdnimg.cn/blog_migrate/968360045052e1806f56ddc5c62c5480.png)
+![img](https://raw.githubusercontent.com/kurong99/plog/master/pic/968360045052e1806f56ddc5c62c5480.png)
 
 点进去之后就是上图这个界面，这里面清楚的显示了我所做的一些修改，当然后面的修改备注是需要自己填写的，这个就相比于Git更加直观，更加方便了。
 
