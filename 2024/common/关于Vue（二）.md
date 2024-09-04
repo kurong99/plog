@@ -1,4 +1,4 @@
-#### 动态定属性的方式
+### 动态定属性的方式
 
 	#### 1. 对象语法
 
@@ -28,7 +28,7 @@ computed: {
 }
 ```
 
-##### 2.  数组语法
+#### 2.  数组语法
 
 ​	 可以把一个数组传给 `v-bind:class`，以应用一个 class 列表：
 
@@ -44,7 +44,7 @@ data: {
 <div v-bind:class="[{ active: isActive }, errorClass]"></div>
 ```
 
-##### 3.  用在组件上
+#### 3.  用在组件上
 
 ​	 在一个自定义组件上使用 `class` property 时，这些 class 将被添加到该组件的根元素上面。这个元素上已经存在的 class 不会被覆盖。
 
@@ -59,7 +59,7 @@ Vue.component('my-component', {
 <my-component v-bind:class="{ active: isActive }"></my-component>
 ```
 
-#### 绑定内联样式
+### 绑定内联样式
 
 	#### 1. 对象语法
 
@@ -83,7 +83,7 @@ data: {
 }
 ```
 
-##### 2.  数组语法
+#### 2.  数组语法
 
 ​	  当 `v-bind:style` 使用需要添加[浏览器引擎前缀](https://developer.mozilla.org/zh-CN/docs/Glossary/Vendor_Prefix)的 CSS property 时，如 `transform`，Vue.js 会自动侦测并添加相应的前缀。
 
@@ -104,7 +104,7 @@ data: {
 }
 ```
 
-#### 绑定元素的attribute
+### 绑定元素的attribute
 
 ​	使用v-bind指令 将元素的attribute与vue实例的数据绑定
 
@@ -122,7 +122,7 @@ const app = new Vue({
 });
 ```
 
-#### attribute 和 property 的区别
+### attribute 和 property 的区别
 
 ​	Attribute：是HTML标签上的特性，它的值只能是字符串，是表示用户自定义的属性
 
