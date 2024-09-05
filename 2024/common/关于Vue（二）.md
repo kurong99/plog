@@ -1,6 +1,6 @@
 ### 动态定属性的方式
 
-	#### 1. 对象语法
+#### 1. 对象语法
 
 ​	可以传给 `v-bind:class` 一个对象，以动态地切换 class：当isActive为true的时候 dom元素将会显示active这个class类。
 
@@ -61,7 +61,7 @@ Vue.component('my-component', {
 
 ### 绑定内联样式
 
-	#### 1. 对象语法
+#### 2. 对象语法
 
 ​	 `v-bind:style` 的对象语法十分直观——看着非常像 CSS，但其实是一个 JavaScript 对象。CSS property 名可以用驼峰式 (camelCase) 或短横线分隔 (kebab-case，记得用引号括起来) 来命名：
 
