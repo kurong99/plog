@@ -113,7 +113,7 @@ function autoRun(fn) {
 
 ​    简单来说：View 和 Model 通过 ViewModel 实现数据同步，不需要手动更新。
 
-​    注意：Vue不严格符合MVVM，因为MVVM规定Model和View不能直接通信，而Vue可以使用`ref`进行通信。
+​    注意：Vue不严格符合MVVM，因为MVVM规定Model和View不能直接通信，而Vue可以使用ref进行通信。
 
 ##### 2. 实现方式
 
